@@ -1,0 +1,1181 @@
+fileFormatVersion: 2
+guid: a5623dfb24e5b46449ccd4d3118c59fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: androidgame_locashion11_0
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 107
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2142b8bb0312b49b3ff310f6d0a0cf
+      internalID: -1592271189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_1
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 47
+        width: 81
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61909138ff516e42abafd6ddf52076e
+      internalID: -486992540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_2
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 217
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960bc37874648ec4dad415457d7c61bd
+      internalID: 1112171596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_3
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 217
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5334c606408fc1e49b8347c863b8e035
+      internalID: -574601506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_4
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 209
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a0b215892e1b54e982e95c69eb705c
+      internalID: 382684218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_5
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 203
+        width: 11
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969bfde5e5052846b8282ebe39b13ad
+      internalID: -1455784532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 203
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b947c1a4e88f74285a24ddbce3aa3c
+      internalID: -253376309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_7
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e457e0ecf029804e9732c35ac67e69d
+      internalID: 1058005515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_8
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea7ac63c5b7d2641a8fe70ec950f692
+      internalID: -1953740217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_9
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea009f5c15f855d4ebfe61e7c9ad726d
+      internalID: 389991869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_10
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3b57bfeb9a0614db0d34d4cc82dc41
+      internalID: -1443618180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_11
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35adf57ea2842164791c167b04f11508
+      internalID: -1485473194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_12
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc4f7154b49e9f49bdcd81debd13d87
+      internalID: 1064031367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_13
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a67d0f89e3644489f6c4999eda5539
+      internalID: 67371613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_14
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6068b7f7c52b3864cb6ac1a706d91296
+      internalID: 59525694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_15
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bba0ccbf1358c4390b205788e4cc72
+      internalID: -448798199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_16
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee73fa28639800948aa3c42685908e59
+      internalID: 766479664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_17
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0420e3e98c17a42a6708b4c6d96e0e
+      internalID: 1795396627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_18
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fe4d1039b5631479e2d64d5781984c
+      internalID: 1378855965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_19
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270d133776c1baa4e88e049271432887
+      internalID: 782332044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_20
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ab1bbd95346f84497fef9daa23e397
+      internalID: 178140421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_21
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ab7ade40b50c8478b018ab81ce7940
+      internalID: 568291066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_22
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8dc2eab2423e54fa135954a56a590b
+      internalID: 191068748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_23
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e7fd74e864ef74c8620bc8d5e63237
+      internalID: -653199893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_24
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f84e220c003da74194339ca7843886d
+      internalID: 1313797169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_25
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7a592fdfbf253419bfcd40a935608b
+      internalID: 2107433216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_26
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5ab52bfbddf0e449b2f3836ce54fc6
+      internalID: -1788464324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_27
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8475218c5a528b34bbcca5c7661a87ec
+      internalID: -1683812340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_28
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5f3c28ffe7d4a4c976ec11d86b0a30
+      internalID: -377948360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_29
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9267a3293db80409b3fbd489bfac83
+      internalID: -136110006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_30
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16dd78695a4f3a44a36487050ebd9a2
+      internalID: -1932406130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_31
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418440d9ea9f73748939d910c4cf3e69
+      internalID: -774044738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_32
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6268dad0376ac1e42b73c09418d1f991
+      internalID: 493698382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_33
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937253ab74d6ca7489ddfb73b177ad4b
+      internalID: -457344863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_34
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a624adf29650a864d9e121250ddecff0
+      internalID: -540133958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_35
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d13a6ce0abb97448a4ebb20e15c0b3
+      internalID: -1964780201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_36
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278ab0ed0d3ba1c48969295cbf2b4fa8
+      internalID: -1984703303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_37
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5741b45533043f949a117343d89b6b9b
+      internalID: 687534938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_38
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b70ac00be1c334a9d28a003062a7c7
+      internalID: -1033773082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_39
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f278ea3e14da9e44c8d4e1a44c54f0b8
+      internalID: 1115595770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_40
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 307
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb755474cbc57394cb338828979567f9
+      internalID: 198053413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_41
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 282
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0250669667ec3804282606d89863448b
+      internalID: -1420130011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_42
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 257
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a63e83ccb923524291a8f67f1e79d80
+      internalID: 1522151452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_43
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 332
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a32a4e61d3ba4c4e8fd8e3615d5d7b9
+      internalID: -901552814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_44
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 153
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d6753733e581b4a9ed4c9643e4b3bc
+      internalID: 1395641193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_45
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 217
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8648e256048e42b97ed0f71803202
+      internalID: 1363228060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidgame_locashion11_46
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 203
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4ebbd0664ef3348bb7ca2659d74db5
+      internalID: -122793994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      androidgame_locashion11_2: 1112171596
+      androidgame_locashion11_10: -1443618180
+      androidgame_locashion11_21: 568291066
+      androidgame_locashion11_16: 766479664
+      androidgame_locashion11_12: 1064031367
+      androidgame_locashion11_3: -574601506
+      androidgame_locashion11_17: 1795396627
+      androidgame_locashion11_31: -774044738
+      androidgame_locashion11_9: 389991869
+      androidgame_locashion11_25: 2107433216
+      androidgame_locashion11_29: -136110006
+      androidgame_locashion11_1: -486992540
+      androidgame_locashion11_0: -1592271189
+      androidgame_locashion11_27: -1683812340
+      androidgame_locashion11_33: -457344863
+      androidgame_locashion11_19: 782332044
+      androidgame_locashion11_30: -1932406130
+      androidgame_locashion11_40: 198053413
+      androidgame_locashion11_34: -540133958
+      androidgame_locashion11_44: 1395641193
+      androidgame_locashion11_43: -901552814
+      androidgame_locashion11_14: 59525694
+      androidgame_locashion11_36: -1984703303
+      androidgame_locashion11_22: 191068748
+      androidgame_locashion11_4: 382684218
+      androidgame_locashion11_37: 687534938
+      androidgame_locashion11_35: -1964780201
+      androidgame_locashion11_38: -1033773082
+      androidgame_locashion11_11: -1485473194
+      androidgame_locashion11_45: 1363228060
+      androidgame_locashion11_8: -1953740217
+      androidgame_locashion11_42: 1522151452
+      androidgame_locashion11_28: -377948360
+      androidgame_locashion11_7: 1058005515
+      androidgame_locashion11_41: -1420130011
+      androidgame_locashion11_23: -653199893
+      androidgame_locashion11_46: -122793994
+      androidgame_locashion11_20: 178140421
+      androidgame_locashion11_13: 67371613
+      androidgame_locashion11_6: -253376309
+      androidgame_locashion11_24: 1313797169
+      androidgame_locashion11_15: -448798199
+      androidgame_locashion11_39: 1115595770
+      androidgame_locashion11_5: -1455784532
+      androidgame_locashion11_26: -1788464324
+      androidgame_locashion11_18: 1378855965
+      androidgame_locashion11_32: 493698382
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
