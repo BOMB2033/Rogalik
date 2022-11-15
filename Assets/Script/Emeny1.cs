@@ -9,7 +9,7 @@ public class Emeny1 : MonoBehaviour
     public float speedEnemy = 0.025f;
     private float dist;
     private bool delayState = true;
-    public float delay = 0.5f; //тут как тебе надо int,double или float
+    public float delay = 0.5f; //тут как тебе надо int,double или float чуш
 
     IEnumerator AttackDelay()
     {
