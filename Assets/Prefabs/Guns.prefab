@@ -130,6 +130,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 0}
-  Weapon: {fileID: 3894885394763595312}
   bulet: {fileID: 0}
   bulett: {fileID: 0}
+  delay: 0.5
