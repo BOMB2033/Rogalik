@@ -27043,6 +27043,7 @@ GameObject:
   - component: {fileID: 1733992797}
   - component: {fileID: 1733992796}
   - component: {fileID: 1733992798}
+  - component: {fileID: 1733992799}
   m_Layer: 0
   m_Name: androidgame_locashion11_1
   m_TagString: Untagged
@@ -27142,6 +27143,32 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 2.1052704, y: 3.7719288}
+  m_EdgeRadius: 0
+--- !u!61 &1733992799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733992795}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.11535835}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.375, y: 5.25}
+    newSize: {x: 3.375, y: 5.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.375, y: 5.0192833}
   m_EdgeRadius: 0
 --- !u!4 &1790678124 stripped
 Transform:
