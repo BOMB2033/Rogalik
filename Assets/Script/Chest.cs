@@ -24,7 +24,9 @@ public class Chest : MonoBehaviour
         buttonChest.gameObject.SetActive(false);
         if (GameObject.FindWithTag("Controller").GetComponent<ControlScript>().weapon1 == TypeWeapons.empty)
         {
-            GameObject.FindWithTag("Controller").GetComponent<ControlScript>().weapon1 = weapons[Random.RandomRange(0, weapons.Length)];
+            var j = Random.RandomRange(0, weapons.Length);
+            GameObject.FindWithTag("Controller").GetComponent<ControlScript>().weapon1 = weapons[j];
+            GameObject.FindWithTag("Controller").GetComponent<ControlScript>().weapon1 = weapons[j];
         }
         else
         {

@@ -2,6 +2,8 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class ControlShots : MonoBehaviour
 {
@@ -10,7 +12,9 @@ public class ControlShots : MonoBehaviour
     public GameObject bulet;
     public GameObject bulett;
     public float delay = 0.5f; //��� ��� ���� ���� int,double ��� float
+
     private bool delayState = true;
+    private bool isShotTrue = false;
 
     IEnumerator Delay()
     {
@@ -22,6 +26,8 @@ public class ControlShots : MonoBehaviour
        
         delayState = true;
     }
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -50,10 +56,13 @@ public class ControlShots : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(GameObject.Find("Controller").GetComponent<ControlScript>().weapon1 != TypeWeapons.empty){
+        if(GameObject.Find("Controller").GetComponent<ControlScript>().weapon1 != TypeWeapons.empty &&
+         SceneManager.GetActiveScene().name != "Hub" && 
+         GameObject.Find("cooldown").GetComponent<CDWeapon>().isCd){
         if (joystick.Horizontal != 0 || joystick.Vertical != 0)
         {
-          
+          GameObject.Find("cooldown").GetComponent<CDWeapon>().isCd =  false;
+          GameObject.Find("cooldown").GetComponent<CDWeapon>().cd =  100f;
           if (delayState) //�������� � ������ �����
               StartCoroutine(Delay()); 
         }

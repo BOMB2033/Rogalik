@@ -15,8 +15,8 @@ public enum TypeWeapons
 {
     empty,
     Revolver,
-    Ak69,
     Nagelwerfer,
+    Ak69,
     Pyras
 }
 
