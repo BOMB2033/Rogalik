@@ -28544,6 +28544,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: androidgame_locashion11_1
       objectReference: {fileID: 0}
+    - target: {fileID: 4449395202313849903, guid: 254d300e985589a48839e8ff996e85ef, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 254d300e985589a48839e8ff996e85ef, type: 3}
 --- !u!1001 &4796087416485452620
