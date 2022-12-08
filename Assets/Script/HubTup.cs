@@ -8,7 +8,7 @@ public class HubTup : MonoBehaviour
 {
 
 	public Button buttonHubTup;
-	private float dist;
+	public float dist;
 
 
 	// Start is called before the first frame update
@@ -30,7 +30,7 @@ public class HubTup : MonoBehaviour
 
 		dist = Vector2.Distance(transform.position, GameObject.FindWithTag("Player").transform.position);
 
-		if (dist < 1f)
+		if (dist < 1.9f)
 		{
 			buttonHubTup.gameObject.SetActive(true);
 		}

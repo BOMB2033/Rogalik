@@ -9,7 +9,7 @@ public class ControlShots : MonoBehaviour
     private GameObject pl;
     public GameObject bulet;
     public GameObject bulett;
-    public float delay = 0.5f; //тут как тебе надо int,double или float
+    public float delay = 0.5f; //пїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ int,double пїЅпїЅпїЅ float
     private bool delayState = true;
 
     IEnumerator Delay()
@@ -18,7 +18,7 @@ public class ControlShots : MonoBehaviour
         var g = Instantiate(bulet);
         g.transform.position = bulett.transform.position;
         g.transform.rotation = bulett.transform.rotation;
-        yield return new WaitForSeconds(delay); //та самая временная задержка.
+        yield return new WaitForSeconds(delay); //пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
        
         delayState = true;
     }
@@ -34,12 +34,12 @@ public class ControlShots : MonoBehaviour
         if (joystick.Horizontal != 0 || joystick.Vertical != 0)
         {
             if (joystick.Horizontal > 0) {
-                pl.GetComponent<SpriteRenderer>().flipX = false; // отрозить по Х
+                pl.GetComponent<SpriteRenderer>().flipX = false; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅ
                 gameObject.transform.localScale = new Vector2(Math.Abs(gameObject.transform.localScale.x), gameObject.transform.localScale.y);
                 gameObject.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x, gameObject.transform.rotation.y, (float)Math.Atan2(joystick.Vertical, joystick.Horizontal) * 60);
             }
             else {
-                pl.GetComponent<SpriteRenderer>().flipX = true; // отрозить по Х
+                pl.GetComponent<SpriteRenderer>().flipX = true; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅ
                 gameObject.transform.localScale = new Vector2(-Math.Abs(gameObject.transform.localScale.x), gameObject.transform.localScale.y);
                 gameObject.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x, gameObject.transform.rotation.y, 180 + (float)Math.Atan2(joystick.Vertical, joystick.Horizontal) * 60);
             }
@@ -50,13 +50,14 @@ public class ControlShots : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(GameObject.Find("Controller").GetComponent<ControlScript>().weapon1 != TypeWeapons.empty){
         if (joystick.Horizontal != 0 || joystick.Vertical != 0)
         {
           
-          if (delayState) //Засунуть в нужное место
+          if (delayState) //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
               StartCoroutine(Delay()); 
         }
-
+        }
     }
 }
     
