@@ -36,7 +36,7 @@ public class ControlSetting : MonoBehaviour
                     slider.value = volume;
             }
             graficValue = qualityDropdown.value;
-            
+            QualitySettings.SetQualityLevel(graficValue, true);
             volume = slider.value;
         }
     }
