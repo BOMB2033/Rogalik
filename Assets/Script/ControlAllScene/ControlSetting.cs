@@ -11,11 +11,16 @@ public class ControlSetting : MonoBehaviour
     public float volume;
     public int graficValue;
     public bool isOnMusic;
-	public TMP_Dropdown qualityDropdown;
+	private TMP_Dropdown qualityDropdown;
+    private Slider slider;
+    private NewScene newScene;
     // Start is called before the first frame update
     void Start()
     {
-
+        newScene = GameObject.Find("NewScene").GetComponent<NewScene>();
+        slider = GameObject.Find("VolumeSlider").GetComponent<Slider>();
+        qualityDropdown = GameObject.Find("DropdownGrafic").GetComponent<TMP_Dropdown>();
+        GameObject.Find("PanelConfig").SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,14 +29,15 @@ public class ControlSetting : MonoBehaviour
         if(GameObject.Find("NewScene") != null)
         {
 
-            if(GameObject.Find("NewScene").GetComponent<NewScene>().isNewScene)
+            if(newScene.isNewScene)
             {
-                    GameObject.Find("NewScene").GetComponent<NewScene>().isNewScene = false;
-                    GameObject.Find("DropdownGrafic").GetComponent<TMP_Dropdown>().value = graficValue;
-                    GameObject.Find("VolumeSlider").GetComponent<Slider>().value = volume;
+                    newScene.isNewScene = false;
+                    qualityDropdown.value = graficValue;
+                    slider.value = volume;
             }
-            graficValue = GameObject.Find("DropdownGrafic").GetComponent<TMP_Dropdown>().value;
-            volume = GameObject.Find("VolumeSlider").GetComponent<Slider>().value;
+            graficValue = qualityDropdown.value;
+            
+            volume = slider.value;
         }
     }
 }
