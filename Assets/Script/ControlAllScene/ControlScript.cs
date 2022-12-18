@@ -1,3 +1,4 @@
+using System.Net.Mime;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -53,12 +54,19 @@ public class ControlScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_hp < 0)
-        {
-            Destroy(GameObject.Find("Player"));
-        }
+        if (_hp < 1) Dead();
+        if(GameObject.Find("NewScene").GetComponent<NewScene>().isNewScene)
+            {
+                    GameObject.Find("NewScene").GetComponent<NewScene>().isNewScene = false;
+                    gameObject.GetComponent<ControlSounds>().NextMusic();
+                    gameObject.GetComponent<ControlSetting>().NewScene();
+            }
     }
-
+    public void Dead()
+    {
+        _hp = 4;
+            BackMenu();
+    }
     public void BackMenu()
     {
         SceneManager.LoadScene(0);

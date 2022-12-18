@@ -17,10 +17,12 @@ public class SwitchEnemy : MonoBehaviour
     public int length = 3;
     public bool isBigin = false;
     public List<GameObject> t = new List<GameObject>();
+    private bool isMusicOn = false;
+    private ControlSounds controlSounds;
     // Start is called before the first frame update
     void Start()
     {
-        
+        controlSounds = GameObject.Find("Controller").GetComponent<ControlSounds>();
     }
 
     // Update is called once per frame
@@ -30,6 +32,9 @@ public class SwitchEnemy : MonoBehaviour
         {
             door1.SetActive(false);
             door2.SetActive(false);
+            if(!isMusicOn){
+            controlSounds.NextMusic();
+            isMusicOn = true;}
         }
         if (t[0] == null)
         {
@@ -46,6 +51,7 @@ public class SwitchEnemy : MonoBehaviour
             isBigin = true;
             door1.SetActive(true);
             door2.SetActive(true);
+            controlSounds.NextMusic(controlSounds.Music[1]);
             for (int i = 0; i < length; i++)
             {
                 t.Add(Instantiate(Enemy1, spawnPoints[Random.Range(0, spawnPoints.Length)]));

@@ -26,18 +26,17 @@ public class ControlSetting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.Find("NewScene") != null)
-        {
-
-            if(newScene.isNewScene)
-            {
-                    newScene.isNewScene = false;
-                    qualityDropdown.value = graficValue;
-                    slider.value = volume;
-            }
+        if(GameObject.Find("MainScene") != null)
+        {           
             graficValue = qualityDropdown.value;
             QualitySettings.SetQualityLevel(graficValue, true);
             volume = slider.value;
         }
+    }
+
+    public void NewScene()
+    {
+        qualityDropdown.value = graficValue;
+        slider.value = volume;
     }
 }
