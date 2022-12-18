@@ -104,7 +104,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +117,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -1031,7 +1031,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6095625, y: 0.042375777}
   m_AnchorMax: {x: 0.7867501, y: 0.16260986}
-  m_AnchoredPosition: {x: -0.099975586, y: -1.2999878}
+  m_AnchoredPosition: {x: -0.099975586, y: -1.2999268}
   m_SizeDelta: {x: -13.910034, y: -9.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356351172
@@ -2516,6 +2516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -3699,7 +3700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8085625, y: 0.042375777}
   m_AnchorMax: {x: 0.9838751, y: 0.16260986}
-  m_AnchoredPosition: {x: -1, y: -2.2000122}
+  m_AnchoredPosition: {x: -1, y: -2.1999512}
   m_SizeDelta: {x: -8.910034, y: -10.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1517048816
@@ -5327,9 +5328,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -5832,7 +5841,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5897752356925746132, guid: 3ac9549a525c94248834611d62f6f8f1, type: 3}
@@ -5896,5 +5905,13 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5897752356925746132, guid: 3ac9549a525c94248834611d62f6f8f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 770709386}
+    - targetCorrespondingSourceObject: {fileID: 5897752356925746132, guid: 3ac9549a525c94248834611d62f6f8f1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 770709387}
   m_SourcePrefab: {fileID: 100100000, guid: 3ac9549a525c94248834611d62f6f8f1, type: 3}
