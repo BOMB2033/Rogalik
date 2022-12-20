@@ -134,12 +134,12 @@ TextureImporter:
       name: androidGame_Ui_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 313
-        width: 30
-        height: 23
+        x: 1604
+        y: 264
+        width: 150
+        height: 42
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,8 +155,8 @@ TextureImporter:
       name: androidGame_Ui_2
       rect:
         serializedVersion: 2
-        x: 652
-        y: 260
+        x: 1094
+        y: 354
         width: 23
         height: 24
       alignment: 0
@@ -176,8 +176,8 @@ TextureImporter:
       name: androidGame_Ui_4
       rect:
         serializedVersion: 2
-        x: 686
-        y: 262
+        x: 1128
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -197,8 +197,8 @@ TextureImporter:
       name: androidGame_Ui_5
       rect:
         serializedVersion: 2
-        x: 694
-        y: 262
+        x: 1136
+        y: 356
         width: 7
         height: 14
       alignment: 0
@@ -218,8 +218,8 @@ TextureImporter:
       name: androidGame_Ui_6
       rect:
         serializedVersion: 2
-        x: 703
-        y: 262
+        x: 1145
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -239,8 +239,8 @@ TextureImporter:
       name: androidGame_Ui_7
       rect:
         serializedVersion: 2
-        x: 711
-        y: 262
+        x: 1153
+        y: 356
         width: 5
         height: 14
       alignment: 0
@@ -260,8 +260,8 @@ TextureImporter:
       name: androidGame_Ui_8
       rect:
         serializedVersion: 2
-        x: 718
-        y: 262
+        x: 1160
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -281,8 +281,8 @@ TextureImporter:
       name: androidGame_Ui_9
       rect:
         serializedVersion: 2
-        x: 726
-        y: 262
+        x: 1168
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -302,8 +302,8 @@ TextureImporter:
       name: androidGame_Ui_10
       rect:
         serializedVersion: 2
-        x: 734
-        y: 262
+        x: 1176
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -323,8 +323,8 @@ TextureImporter:
       name: androidGame_Ui_11
       rect:
         serializedVersion: 2
-        x: 742
-        y: 262
+        x: 1184
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -344,8 +344,8 @@ TextureImporter:
       name: androidGame_Ui_12
       rect:
         serializedVersion: 2
-        x: 750
-        y: 262
+        x: 1192
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -365,8 +365,8 @@ TextureImporter:
       name: androidGame_Ui_13
       rect:
         serializedVersion: 2
-        x: 758
-        y: 262
+        x: 1200
+        y: 356
         width: 6
         height: 14
       alignment: 0
@@ -386,8 +386,8 @@ TextureImporter:
       name: androidGame_Ui_19
       rect:
         serializedVersion: 2
-        x: 734
-        y: 208
+        x: 1176
+        y: 302
         width: 45
         height: 45
       alignment: 0
@@ -407,8 +407,8 @@ TextureImporter:
       name: androidGame_Ui_26
       rect:
         serializedVersion: 2
-        x: 599
-        y: 160
+        x: 1041
+        y: 254
         width: 13
         height: 27
       alignment: 0
@@ -428,8 +428,8 @@ TextureImporter:
       name: androidGame_Ui_28
       rect:
         serializedVersion: 2
-        x: 623
-        y: 116
+        x: 1065
+        y: 209
         width: 83
         height: 83
       alignment: 0
@@ -449,8 +449,8 @@ TextureImporter:
       name: androidGame_Ui_29
       rect:
         serializedVersion: 2
-        x: 712
-        y: 114
+        x: 1154
+        y: 208
         width: 89
         height: 89
       alignment: 0
@@ -470,8 +470,8 @@ TextureImporter:
       name: androidGame_Ui_30
       rect:
         serializedVersion: 2
-        x: 599
-        y: 129
+        x: 1041
+        y: 223
         width: 13
         height: 27
       alignment: 0
@@ -491,8 +491,8 @@ TextureImporter:
       name: androidGame_Ui_32
       rect:
         serializedVersion: 2
-        x: 630
-        y: 57
+        x: 1072
+        y: 151
         width: 41
         height: 41
       alignment: 0
@@ -512,8 +512,8 @@ TextureImporter:
       name: androidGame_Ui_33
       rect:
         serializedVersion: 2
-        x: 676
-        y: 61
+        x: 1118
+        y: 155
         width: 30
         height: 31
       alignment: 0
@@ -533,8 +533,8 @@ TextureImporter:
       name: androidGame_Ui_34
       rect:
         serializedVersion: 2
-        x: 713
-        y: 58
+        x: 1155
+        y: 152
         width: 41
         height: 41
       alignment: 0
@@ -554,8 +554,8 @@ TextureImporter:
       name: androidGame_Ui_35
       rect:
         serializedVersion: 2
-        x: 760
-        y: 64
+        x: 1202
+        y: 158
         width: 30
         height: 31
       alignment: 0
@@ -575,8 +575,8 @@ TextureImporter:
       name: androidGame_Ui_36
       rect:
         serializedVersion: 2
-        x: 797
-        y: 64
+        x: 1239
+        y: 158
         width: 30
         height: 31
       alignment: 0
@@ -596,8 +596,8 @@ TextureImporter:
       name: androidGame_Ui_16
       rect:
         serializedVersion: 2
-        x: 643
-        y: 203
+        x: 1085
+        y: 297
         width: 43
         height: 43
       alignment: 0
@@ -617,8 +617,8 @@ TextureImporter:
       name: androidGame_Ui_14
       rect:
         serializedVersion: 2
-        x: 799
-        y: 231
+        x: 1241
+        y: 325
         width: 28
         height: 46
       alignment: 0
@@ -638,8 +638,8 @@ TextureImporter:
       name: androidGame_Ui_1
       rect:
         serializedVersion: 2
-        x: 677
-        y: 267
+        x: 1119
+        y: 361
         width: 7
         height: 7
       alignment: 0
@@ -659,12 +659,12 @@ TextureImporter:
       name: androidGame_Ui_3
       rect:
         serializedVersion: 2
-        x: 933
-        y: 30
+        x: 1527
+        y: 124
         width: 40
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,12 +680,12 @@ TextureImporter:
       name: androidGame_Ui_15
       rect:
         serializedVersion: 2
-        x: 892
-        y: 30
+        x: 1334
+        y: 124
         width: 40
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -701,12 +701,12 @@ TextureImporter:
       name: androidGame_Ui_17
       rect:
         serializedVersion: 2
-        x: 884
-        y: 132
+        x: 1326
+        y: 226
         width: 251
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: androidGame_Ui_18
       rect:
         serializedVersion: 2
-        x: 1085
-        y: 30
+        x: 1375
+        y: 124
         width: 40
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -743,12 +743,12 @@ TextureImporter:
       name: androidGame_Ui_20
       rect:
         serializedVersion: 2
-        x: 929
-        y: 94
+        x: 1371
+        y: 188
         width: 162
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -756,6 +756,132 @@ TextureImporter:
       bones: []
       spriteID: 8e9e811c1b88a3646ae28b30f5be4076
       internalID: 918159228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidGame_Ui_21
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 221
+        width: 144
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b81d68c7ef84c14ab07ec3d3a5d96d2
+      internalID: -191083715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidGame_Ui_22
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 178
+        width: 138
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dc9a3f292904b44b3a4ea520659aaf
+      internalID: -1722580169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidGame_Ui_23
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 188
+        width: 171
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa0113ac6b80fc479d38981527a8523
+      internalID: 42992973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidGame_Ui_24
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 145
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaa0933c15d72b4288fe61459dc5e87
+      internalID: 1509983664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidGame_Ui_25
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 219
+        width: 124
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903f2dc8dc846bf4ebdba74803074630
+      internalID: 96205413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: androidGame_Ui_27
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 357
+        width: 192
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecda547489f9684c82d3165aa412de2
+      internalID: 1348059271
       vertices: []
       indices: 
       edges: []
